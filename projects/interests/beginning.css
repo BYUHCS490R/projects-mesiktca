@@ -2,8 +2,7 @@ body {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 body {font-size: 15pt;}
 body {color:darkblue;}
 body {background-color:linen;}
-#highlight1 {color: darkmagenta;}
-#highlight2 {color: darkmagenta;}
+.mesikt {color: darkmagenta; font-family:monospace;}
 #title1 {color: darkmagenta;}
 #title2 {color: darkmagenta;}
 #copyright1 {color: gray;}
