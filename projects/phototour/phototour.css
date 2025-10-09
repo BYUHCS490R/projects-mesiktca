@@ -1,0 +1,12 @@
+body {font-family: 'Times New Roman', Times, serif;
+color: black;}
+a {color:darkred; text-decoration: none;}
+#home {color:chocolate; text-decoration:underline;}
+#koror {color: chocolate;text-decoration:underline;}
+#nav {color: chocolate;text-decoration:underline;}
+body {background-color:ghostwhite;}
+ul {list-style-image: url(finalpwbullet.png);}
+body { background-image: url('palauflag.png'), url('finalbg.jpg');
+  background-repeat: no-repeat, repeat; 
+  background-position: right top, left top; 
+}
