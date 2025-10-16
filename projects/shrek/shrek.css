@@ -1,0 +1,21 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{font-family: fantasy; font-size: 30pt; font-style: oblique; line-height:2.5; text-align: center;}
+p{font-family: 'Times New Roman', Times, serif; }
+nav {text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;}
+footer {font-size: small; font-family: cursive; }
+#journey {font-weight: 900;}
+#caption {text-transform: uppercase;}
+.shrek {
+    width: 350px;                
+   min-height: 70px;               
+    margin: 20px auto;           
+    padding: 30px;               
+    border: 3px solid #333;      
+    border-radius: 15px;        
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4); 
+}
+header {background-image: url(green2.jpg); background-origin:border-box; background-clip: content-box;}
+body {background-image: url(paper1.jpg); background-origin:border-box; background-clip: content-box;}
+nav a:hover {text-decoration:solid; color: black;}
