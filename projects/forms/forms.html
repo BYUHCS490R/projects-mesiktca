@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Forms by M. Carlson</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Forms</a>
+        </nav>
+    </header>
+    <main>
+       <div class = form1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Account Setup</legend>
+                <label for="username">User Name:</label>
+                <input type="text"id="username" name="username" required>
+                <br></br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br></br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="dob">Birth Date:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                <label for="reason">Reason For Signup:</label>
+                <textarea id="reason" name="reason" rows="4" cols="30"></textarea>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Permissions and Security</legend>
+                <label for="text">Preferred Contact</label><br>
+                <input type="radio" id="phone" name="contact" value="phone">
+                <label for="phone">Phone Number</label>
+                <input type="radio" id="email" name="contact" value="email"><label for="email">Email</label>
+                <br><br>
+
+                <label for="preferred_twostep">Preferred Two Step Authentication:</label>
+                <select id="twostep" name="twostep">
+                <option value="call">Call Me</option>
+                <option value="text">Text Me</option>
+                <option value="email">Email Me</option>
+                <option value="faceid">Use FaceId</option>
+                <option value="question">Answer Question</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree to these terms and conditions.</label>
+                <br>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+       </div>
+    </main>
+    <footer>
+        &copy; Missy Carlson
+        <p>Thank you for your participation!</p>
+    </footer>
+</body>
+</html>

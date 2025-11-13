@@ -1,0 +1,30 @@
+header { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(112, 26, 192); }
+nav a {color: blueviolet; font-size: larger;}
+body { background-color: antiquewhite;}
+footer {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: small; color:rgb(0, 95, 16); font-weight: 480; font-style: italic;}
+form {max-width: 800px;
+  margin: auto;}
+input, select, textarea {border-radius: 8px;
+  border: 3px solid #7e1e1e;
+  margin-bottom: 10px; background-color: rgba(222, 200, 135, 0.514);}
+label {width: 150px;
+  text-align: right;}
+fieldset {color:darkblue; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+legend {color: brown; font-weight: bold;}
+button[type="submit"], input[type="submit"] {
+  background-color: #af4ca8;
+  color: white;
+  border:5px solid #7e1e66;
+  padding: 10px 20px;}
+
+@media (max-width: 500px) {
+  label {
+    width: 100%;
+    text-align: left; }
+
+  input, select, textarea {
+    width: 100%;}
+
+  button[type="submit"], input[type="submit"] {
+    width: 100%;
+    font-size: 18px;}}
