@@ -14,8 +14,7 @@ legend {color: brown; font-weight: bold;}
 button[type="submit"], input[type="submit"] {
   background-color: #af4ca8;
   color: white;
-  border:5px solid #7e1e66;
-  padding: 10px 20px;}
+  border:5px solid #7e1e66;}
 
 @media (max-width: 500px) {
   label {
