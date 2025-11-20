@@ -18,8 +18,8 @@
         </nav>
     </header>
     <main>
-       <div class = form1>
-        <form action="#" method="post">
+       <div class = "form1">
+        <form id="mesiktform" action="#" method="get">
             <fieldset>
                 <legend>Account Setup</legend>
                 <label for="username">User Name:</label>
@@ -27,6 +27,9 @@
                 <br><br>
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="favnum">Security PIN (4 digits):</label>
+                <input type="number" id="favnum" name="favnum" required>
                 <br><br>
                 <label for="phone">Phone Number:</label>
                 <input type="tel" id="phonenum" name="phonenum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
@@ -46,7 +49,7 @@
                 <label>Preferred Contact</label><br>
                 <input type="radio" id="phone" name="contact" value="phone">
                 <label for="phone">Phone Number</label>
-                <input type="radio" id="email" name="contact" value="page"><label for="email">Email</label>
+                <input type="radio" id="email" name="contact" value="email"><label for="email">Email</label>
                 <br><br>
 
                 <label>Preferred Two Step Authentication:</label>
@@ -70,5 +73,6 @@
         &copy; Missy Carlson
         <p>Thank you for your participation!</p>
     </footer>
+    <script src="forms.js"></script>
 </body>
 </html>
