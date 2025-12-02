@@ -6,7 +6,7 @@ body { background-color: #fff7ea;}
     justify-content: space-around;
     align-items: center; 
     padding: 10px; 
-    max-width: 1200px;}
+    }
 
 .navbanner a { color: #fff7ea;
      font-family:Georgia, 'Times New Roman', Times, serif;
@@ -14,7 +14,7 @@ body { background-color: #fff7ea;}
     font-size: 15px;}
 
 .navbanner a:hover {opacity: 0.45;}
-.homecont {max-width: 1200px;
+.homecont {width:100%;
 margin: 0 auto;}
 .homeim {width: 100%; height: auto; 
     display: block; }
