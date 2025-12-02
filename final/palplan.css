@@ -15,6 +15,6 @@ body { background-color: #fff7ea;}
 
 .navbanner a:hover {opacity: 0.45;}
 .homecont {width:100%;
-margin: 0 auto;}
+margin: auto;}
 .homeim {width: 100%; height: auto; 
-    display: block; }
+    display: flex; justify-content: center; }
