@@ -1,0 +1,20 @@
+body { background-color: #fff7ea;}
+.navbanner { width: 100%; 
+    background-color: #042552;
+     margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px; 
+    max-width: 1200px;}
+
+.navbanner a { color: #fff7ea;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
+    font-size: 15px;}
+
+.navbanner a:hover {opacity: 0.45;}
+.homecont {max-width: 1200px;
+margin: 0 auto;}
+.homeim {width: 100%; height: auto; 
+    display: block; }
