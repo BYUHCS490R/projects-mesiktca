@@ -1,4 +1,5 @@
-body { background-color: #fff7ea;}
+body { background-color: #fff7ea; 
+    margin: 0; padding: 0;} 
 
 .navbanner { width: 100%; 
     background-color: #042552;
@@ -14,10 +15,12 @@ body { background-color: #fff7ea;}
 .navbanner a:hover {opacity: 0.45;}
 
 .homecont {width:100%;
-margin: auto;
-text-align: center; display: block;}
+margin: 0 auto;
+padding: 0 10px;
+text-align: center;
+padding-left: 10px; padding-right: 10px;}
 
-.homeim {width: 100%; height: auto; max-width: 100%; }
+.homeim {width: 100%; height: auto; max-width: 100%; display: block; margin:0 auto }
 
 @media (max-width: 768px) {
     .navbanner{ flex-direction: column; align-items: center;}
@@ -25,6 +28,6 @@ text-align: center; display: block;}
     .navbanner a {font-size: 18px; padding: 12px 16px ; margin: 6px 0; width: 70%; text-align: center;}
 
     .homecont {flex-direction: column; align-items: center; margin-top: 10px;}
-    
+
     .homeim{ width: 85%; max-width: 600px;}
 }
