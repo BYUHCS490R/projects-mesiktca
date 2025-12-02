@@ -1,12 +1,10 @@
 body { background-color: #fff7ea;}
+
 .navbanner { width: 100%; 
     background-color: #042552;
      margin:0 auto;
-    display:flex;
-    justify-content: space-around;
-    align-items: center; 
-    padding: 10px; 
-    }
+    display:flex; justify-content: space-around;align-items: center; 
+    padding: 10px; }
 
 .navbanner a { color: #fff7ea;
      font-family:Georgia, 'Times New Roman', Times, serif;
@@ -14,7 +12,9 @@ body { background-color: #fff7ea;}
     font-size: 15px;}
 
 .navbanner a:hover {opacity: 0.45;}
+
 .homecont {width:100%;
-margin: auto;}
-.homeim {width: 100%; height: auto; 
-    display: flex; justify-content: center; }
+margin: auto;
+display: flex; justify-content: center; align-items: center;}
+
+.homeim {width: 100%; height: auto; max-width: 1200px; }
